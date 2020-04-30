@@ -43,7 +43,7 @@ body{
 }
   @keyframes shakti {
   0%   {text-shadow: -10px -10px red; }
-  25%  {text-shadow: -10px -10px yellow;}
+  25%  {text-shadow: -10px -10px black;}
   50%  {text-shadow: -10px -10px blue; }
   75%  {text-shadow: -10px -10px green;}
   100% {text-shadow: -10px -10px red;}
