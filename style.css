@@ -91,6 +91,13 @@ body{
 	background: linear-gradient(60deg,  #3F5EFB 0%, #FC466B 100%)!important;
 }
 
+.sushil{
+	transition:0.5s;
+}
+.sushil:hover{
+	transform: translateY(-20px);
+}
+
  @keyframes scale {
   0%   { transform: scale(0.5); }
   25%  { transform: scale(1);}
