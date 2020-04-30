@@ -33,7 +33,7 @@ body{
 }
 .text h1{
 	font-size: 100px;
-	margin-top:85px;
+	margin-top:80px;
 	color: #f1c40f;
 	  /*text-shadow: 5px 5px #FF0000;*/
 	font-weight: 700;
@@ -131,8 +131,8 @@ body{
 @media (max-width: 445px){
 
 .text h1{
-              margin-top:85px;
-		font-size: 40px;
+              margin-top:80px;
+		font-size: 45px;
 		letter-spacing: 2px!important;
 	      animation: shakti 5s linear 2s infinite alternate;
 	}
@@ -145,7 +145,7 @@ body{
              100% {text-shadow: -5px -5px red;}
              }
 	.text p{
-		font-size: 20px;
+		font-size: 25px;
 	}
 	
 	.logo img{
