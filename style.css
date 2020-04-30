@@ -72,6 +72,7 @@ body{
 	position: absolute;
 	right:20px;
 	bottom:25px;
+	z-index:1;
 
 }
 .logo img{
@@ -111,6 +112,11 @@ body{
 	background-color: #3498db!important;
 }
 
+    svg{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+     }
 
 @media(max-width: 775px){
 	
@@ -159,6 +165,8 @@ body{
 	width:50px;
 	height: 50px;
 	border-radius: 50%;
+	position:absolute;
+        z-index:1;
 }
 
 
