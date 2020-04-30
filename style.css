@@ -33,7 +33,7 @@ body{
 }
 .text h1{
 	font-size: 100px;
-	margin-top:30px;
+	margin-top:60px;
 	color: #f1c40f;
 	  /*text-shadow: 5px 5px #FF0000;*/
 	font-weight: 700;
@@ -134,7 +134,16 @@ body{
               margin-top:40px;
 		font-size: 40px;
 		letter-spacing: 2px!important;
+	      animation: shakti 5s linear 2s infinite alternate;
 	}
+	
+	  @keyframes shakti {
+            0%   {text-shadow: -5px -5px red; }
+               25%  {text-shadow: -5px -5px black;}
+               50%  {text-shadow: -5px -5px blue; }
+               75%  {text-shadow: -5px -5px green;}
+             100% {text-shadow: -5px -5px red;}
+             }
 	.text p{
 		font-size: 20px;
 	}
